@@ -1,0 +1,51 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on dservian.log</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Recent content in Posts on dservian.log</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Fri, 05 Dec 2025 23:03:50 +0100</lastBuildDate>
+        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Set the Correct Time Zone on Kali</title>
+            <link>http://localhost:1313/posts/kali-set-timezone/</link>
+            <pubDate>Fri, 05 Dec 2025 23:03:50 +0100</pubDate>
+            
+            <guid>http://localhost:1313/posts/kali-set-timezone/</guid>
+            <description>&lt;ol&gt;
+&lt;li&gt;Open a terminal and check your current time zone&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;timedatectl
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;List available time zones&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;timedatectl list-timezones | grep Europe
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Set the time zone&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo timedatectl set-timezone Europe/Madrid
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You can enable ntp with the following command&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo timedatectl set-ntp on
+&lt;/code&gt;&lt;/pre&gt;</description>
+            <content type="html"><![CDATA[<ol>
+<li>Open a terminal and check your current time zone</li>
+</ol>
+<pre tabindex="0"><code>timedatectl
+</code></pre><ol start="2">
+<li>List available time zones</li>
+</ol>
+<pre tabindex="0"><code>timedatectl list-timezones | grep Europe
+</code></pre><ol start="3">
+<li>Set the time zone</li>
+</ol>
+<pre tabindex="0"><code>sudo timedatectl set-timezone Europe/Madrid
+</code></pre><p>You can enable ntp with the following command</p>
+<pre tabindex="0"><code>sudo timedatectl set-ntp on
+</code></pre>]]></content>
+        </item>
+        
+    </channel>
+</rss>
