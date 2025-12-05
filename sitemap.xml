@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://dservian.github.io/</loc>
     <lastmod>2025-12-05T23:03:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://dservian.github.io/tags/linux/</loc>
     <lastmod>2025-12-05T23:03:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://dservian.github.io/posts/</loc>
     <lastmod>2025-12-05T23:03:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/kali-set-timezone/</loc>
+    <loc>https://dservian.github.io/posts/kali-set-timezone/</loc>
     <lastmod>2025-12-05T23:03:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://dservian.github.io/tags/</loc>
     <lastmod>2025-12-05T23:03:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://dservian.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://dservian.github.io/series/</loc>
   </url>
 </urlset>

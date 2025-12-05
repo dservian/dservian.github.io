@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dservian.log</title>
-    <link>http://localhost:1313/</link>
+    <link>https://dservian.github.io/</link>
     <description>Recent content on dservian.log</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Fri, 05 Dec 2025 23:03:50 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dservian.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Set the Correct Time Zone on Kali</title>
-      <link>http://localhost:1313/posts/kali-set-timezone/</link>
+      <link>https://dservian.github.io/posts/kali-set-timezone/</link>
       <pubDate>Fri, 05 Dec 2025 23:03:50 +0100</pubDate>
-      <guid>http://localhost:1313/posts/kali-set-timezone/</guid>
+      <guid>https://dservian.github.io/posts/kali-set-timezone/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;Open a terminal and check your current time zone&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;timedatectl&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;List available time zones&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;timedatectl list-timezones | grep Europe&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Set the time zone&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo timedatectl set-timezone Europe/Madrid&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You can enable ntp with the following command&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo timedatectl set-ntp on&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
